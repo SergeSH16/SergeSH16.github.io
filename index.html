@@ -1,10 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang=en-us>
 	<head>
-		<title>Hey !!!</title>
+		<meta charset=utf-8 />
+		<title>Chinese flashcard</title>
+		<script src="myscript.js"></script>
+		<link rel="stylesheet" href="mystyle.css" />
 	</head>
 	<body>
-		<h1>Hello World</h1>
-		<p>I'm hosted with GitHub Pages.</p>
+		<div id="chinese">chinese goes here</div>
+		<div id="pinyin" class="hidden" onclick="reveal('pinyin')">reveal</div>
+		<div id="english" class="hidden" onclick="reveal('english')">reveal</div>
+		<input type="button" value="try me" onclick=tryme()" />
 	</body>
 </html>
