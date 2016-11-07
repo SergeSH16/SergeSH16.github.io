@@ -14,5 +14,5 @@ function reveal(mydiv) {
 }
 
 function displayHanYu() {
-	document.getElementById("chinese").innerHTML=data[i]["chinese"];
+	document.getElementById("chinese").innerHTML=data[0]["chinese"];
 }
