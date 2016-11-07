@@ -12,3 +12,7 @@ function tryme() {
 function reveal(mydiv) {
 	document.getElementById(mydiv).innerHTML=data[i][mydiv];
 }
+
+function displayHanYu() {
+	document.getElementById("chinese").innerHTML=data[i]["chinese"];
+}
